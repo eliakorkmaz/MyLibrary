@@ -7,7 +7,7 @@ open class Shape: CustomStringConvertible{
     
     open var round: Int
     
-    init(round:  Int){
+    public init(round:  Int){
         self.round = round
     }
     
